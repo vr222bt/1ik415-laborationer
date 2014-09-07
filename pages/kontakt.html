@@ -24,40 +24,54 @@
         
         <h2>Formulär</h2>
         <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method=post>
-            
             <fieldset>
-                <legend>Personuppgifter</legend>
+                <legend>Meddelande</legend>
                <ul>
+               <li>
+                   <label for=ärende>Ärende:<select name=ärende>
+                       <option>Fråga</option>
+                       <option>Förslag</option>
+                       <option>Annat</option>
+                   </select>
+               </li>
                
                 <li>
                     <label for=name>Namn:</label><input type=text id=name autofocus >
                 </li>
-                
                 <li>
-                    <label for=adress>Adress:</label><input type=text id=adress>
+                    <label for=nummer>Telefonnummer:</label><input type=text id=nummer >
+                </li>
+                <li>
+                    <label for=mailadress>Email:</label><input type=text id=mailadress >
                 </li>
                 
                 <li>
-                    <label for=pw>Lösenord:</label><input type=password id=pw>
+                    <label for=rubrik>Rubrik:</label><input type=text id=rubrik>
                 </li>
                 
                 <li>
-                    <textarea placeholder="Beskriv dig själv"></textarea>
+                    <textarea placeholder="Skriv din fråga här"></textarea>
                 </li>
                </ul>  
             </fieldset>
             <fieldset>
-                <legend>Frågor</legend>
+                <legend>Fråga</legend>
                     <ul>
+                        
                         <li>
-                            Favoritdjur?
+                            Jag vill ha svar via:
                         </li>
                         <li>
-                           <label for=tiger>Tiger</label> <input id=tiger type=radio name=djur>
+                          <input id=telefon type=radio name=svar > <label for=telefon>Telefon</label> 
                         </li>
                         <li>
-                           <label for=lejon>Lejon</label> <input id=lejon type=radio name=djur>
+                            <input id=email type=radio name=svar> <label for=email>Email</label>
                         </li>
+                        <li>
+                            <input id=båda type=radio name=svar> <label for=båda>Båda</label>
+                        </li>
+                        
+                        
                         
                         
                         
@@ -71,19 +85,7 @@
                 
                 
             </fieldset>
-                
-                
-                
-            
-                
-                
-                
-                
-                
-                
-                
-               <input type="submit" value="Skicka" /> 
-        
+            <input type="submit" value="Skicka" /> 
         </form>
         
         
