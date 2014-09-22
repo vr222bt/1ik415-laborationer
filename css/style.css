@@ -3,6 +3,9 @@
             border-style: solid;
             border-width: 1px;
             border-color: blue;
+            max-width: 1000px;
+            margin-right: auto;
+            margin-left: auto;
             
         }
 
@@ -22,6 +25,7 @@
         {
             border-style: solid;
             border-width: 1px;
+            
         }
     
         
