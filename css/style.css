@@ -13,13 +13,16 @@
         {
             border-style: solid;
             border-width: 1px;
+            height: 100px;
         }
 
 #nav
         {
+            float: left;
             border-style: solid;
             border-width: 1px;
             width: 20%;
+            
         }
         
 #content
@@ -27,7 +30,12 @@
             border-style: solid;
             border-width: 1px;
             width: 80%;
-            
+            margin-left: 20%
+        }
+#footer
+        {
+            border-style: solid;
+            border-width: 1px;
         }
     
         
