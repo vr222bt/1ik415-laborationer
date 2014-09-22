@@ -6,6 +6,7 @@
             max-width: 1000px;
             margin-right: auto;
             margin-left: auto;
+            background-color: #010F1F;
             
         }
 
@@ -13,7 +14,7 @@
         {
             border-style: solid;
             border-width: 1px;
-            
+            background-color: #302800;
         }
 
 #nav
@@ -23,6 +24,7 @@
             border-width: 1px;
             width: 20%;
             
+            
         }
         
 #content
@@ -30,16 +32,14 @@
             border-style: solid;
             border-width: 1px;
             width: 80%;
-            margin-left: 20%
+            margin-left: 20%;
+            background-color: #302800;
         }
 #footer
         {
             border-style: solid;
             border-width: 1px;
+            background-color: #010F1F;
         }
     
         
-h1 
-        {
-            color: green;
-        }
