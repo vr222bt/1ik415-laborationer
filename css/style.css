@@ -19,12 +19,14 @@
         {
             border-style: solid;
             border-width: 1px;
+            width: 20%;
         }
         
 #content
         {
             border-style: solid;
             border-width: 1px;
+            width: 80%;
             
         }
     
