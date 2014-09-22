@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset='utf-8'>
     <title>Victors första webbsida</title>
 </head>
 <body>
-    <h1>Victors första webbsida</h1>
-    <h2>Kursblogg</h2>
-    <img src=pics/logo2.png alt=logo height=150 width=100 />
-    <h2>Länkar</h2>
-    <ul>
-        <li>
-            <a href=index.html>Start</a>
-        </li>
-        <li>
-            <a href=pages/presentation.html>Presentation</a>
-        </li>
-        <li>
-            <a href=pages/kontakt.html>Kontakt</a>
-        </li>
-        <li>
-            <a href=pages/laborationer.html>Laborationer</a>
-        </li>
-    </ul>
-    <h2 id=vidtest>Video test</h2>
-    <video src=videos/trailer_iphone.m4v height=200 width=200 controls>
-        Test film
-    </video> 
-    <p>
-        <a href=http://www.bigbuckbunny.org/index.php/trailer-page/>Källa</a>
-    </p>
-    <p>Skrivet 06/09/2014</p>
+<div id="container">
+    <div id="header">
+        <h1>Victors första webbsida</h1>
+        <h2>Kursblogg</h2>
+         <img src=pics/logo2.png alt=logo height=150 width=100 />
+    </div>    
         
-    
-    <h2 id=svgtest>SVG bild test</h2>
-    <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-     <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
-         <g>
-          <title>Layer 1</title>
-          <ellipse ry="62" rx="71" id="svg_1" cy="102" cx="355" stroke-width="5" stroke="#000000" fill="#ffff00"/>
-          <rect id="svg_2" height="123" width="332" y="298" x="80" stroke-width="5" stroke="#000000" fill="#7f0000"/>
-          <ellipse ry="40" rx="34" id="svg_4" cy="62" cx="52" stroke-width="5" stroke="#000000" fill="#3f007f"/>
-         </g>
-    </svg>
-    <p>Skrivet 05/09/2014 av Victor</p>
-    
-    <h2>Första blogginlägget</h2>
-    <p>På min webbsida kommer man kunna ta del av vad jag har att säga om laborationerna samt se materialet som
-            jag publicerar.
-    </p>
-    <p>Skrivet 04/09/2014 av Victor</p>  
+    <div id="nav">
+        <h2>Länkar</h2>
+        <ul>
+            <li>
+                <a href=index.html>Start</a>
+            </li>
+            <li>
+                <a href=pages/presentation.html>Presentation</a>
+            </li>
+            <li>
+                <a href=pages/kontakt.html>Kontakt</a>
+            </li>
+            <li>
+                <a href=pages/laborationer.html>Laborationer</a>
+            </li>
+        </ul>
+    </div>   
+    <div id="content">
+        <h2 id=vidtest>Video test</h2>
+        <video src=videos/trailer_iphone.m4v height=200 width=200 controls>
+            Test film
+        </video> 
+        <p>
+            <a href=http://www.bigbuckbunny.org/index.php/trailer-page/>Källa</a>
+        </p>
+        <p>Skrivet 06/09/2014</p>
+            
+        
+        <h2 id=svgtest>SVG bild test</h2>
+        <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+         <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+             <g>
+              <title>Layer 1</title>
+              <ellipse ry="62" rx="71" id="svg_1" cy="102" cx="355" stroke-width="5" stroke="#000000" fill="#ffff00"/>
+              <rect id="svg_2" height="123" width="332" y="298" x="80" stroke-width="5" stroke="#000000" fill="#7f0000"/>
+              <ellipse ry="40" rx="34" id="svg_4" cy="62" cx="52" stroke-width="5" stroke="#000000" fill="#3f007f"/>
+             </g>
+        </svg>
+        <p>Skrivet 05/09/2014 av Victor</p>
+        
+        <h2>Första blogginlägget</h2>
+        <p>På min webbsida kommer man kunna ta del av vad jag har att säga om laborationerna samt se materialet som
+                jag publicerar.
+        </p>
+        <p>Skrivet 04/09/2014 av Victor</p>  
+    </div>    
     <div id="footer">
-            <p>Victor Rinnegård</p>
+        <p>Victor Rinnegård</p>
     </div>
+</div>    
 </body>    
 </html>
