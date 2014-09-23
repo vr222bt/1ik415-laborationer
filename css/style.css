@@ -1,19 +1,20 @@
 /* Färger
-    background header,footer #00518B
-    background content #D76900
-    background nav #037084
-    background container #FFAF49
+    background header,footer #191919
+    background content #FFFFFF
+    background nav #FFF056
+    background container #DFE2DB
     
 */
 
 #container
         {
             border-style: solid;
-            border-width: 1px;
+            border-width: 10px;
+            border-color: #191919;
             max-width: 1000px;
             margin-right: auto;
             margin-left: auto;
-            background-color: #FFAF49;
+            background-color: #DFE2DB;
             
             
         }
@@ -22,7 +23,8 @@
         {
             border-style: solid;
             border-width: 1px;
-            background-color: #00518B;
+            background-color: #191919 ;
+            
         }
 
 #nav
@@ -31,23 +33,25 @@
             border-style: solid;
             border-width: 1px;
             width: 20%;
-            background-color: #037084;
+            background-color: #FFF056;
             
         }
         
 #content
         {
-            border-style: solid;
-            border-width: 1px;
+            
             width: 80%;
             margin-left: 20%;
-            background-color: #D76900;
+            background-color: #FFFFFF;
         }
 #footer
         {
-            border-style: solid;
-            border-width: 1px;
-            background-color: #00518B;
+            height: 50px;
+            background-color: #191919;
+            color: #FFFFFF;
         }
-    
+h1
+        {
+            color: #FFFFFF;
+        }
         
