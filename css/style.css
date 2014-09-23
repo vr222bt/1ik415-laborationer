@@ -183,7 +183,7 @@ body
 table
         {
             border-collapse: collapse;
-            
+            width: 100%;
         }
 
 table, th, td
@@ -191,4 +191,19 @@ table, th, td
             border-style: solid;
             border-color: #191919;
             border-width: 1px;
+        }
+        
+th 
+        {
+            background-color: #FFF056 ;
+        }
+td 
+        {
+            text-align: center;
+        }
+        
+tfoot 
+        {
+            background-color: #191919;
+            color: #FFFFFF;
         }
