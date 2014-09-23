@@ -43,7 +43,7 @@
         
 #content
         {
-            
+            line-height: 1.5;
             width: 80%;
             margin-top: 0px;
             margin-left: 20%;
@@ -124,5 +124,9 @@
             
             font-style: italic;
             
-           
+        }
+
+body
+        {
+            font-family: "Arial" , sans-serif;
         }
