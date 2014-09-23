@@ -51,7 +51,7 @@
 #content
         {
             line-height: 1.5;
-            width: 80%;
+            width: 79%;
             margin-top: -20px;
             margin-left: 20%;
             padding-left: 10px;
@@ -179,6 +179,7 @@ body
         {
             text-align: right;
             font-style: italic;
+            clear: both;
         }
         
 /* Floating images */
