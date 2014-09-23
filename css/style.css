@@ -165,3 +165,9 @@ body
             border-bottom-style: solid;
             border-bottom-color: #191919;
         }
+        
+.signature
+        {
+            text-align: right;
+            font-style: italic;
+        }
