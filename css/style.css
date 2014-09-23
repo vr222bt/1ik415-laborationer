@@ -130,3 +130,21 @@ body
         {
             font-family: "Arial" , sans-serif;
         }
+        
+#content a
+        {
+            text-decoration: none;
+            font-style: italic;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #9AE700;
+        }
+        
+#content a:hover
+        {
+            text-decoration: none;
+            font-style: italic;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #F71D00;
+        }
