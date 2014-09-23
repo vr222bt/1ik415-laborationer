@@ -180,4 +180,15 @@ body
         }
         
 
-      
+table
+        {
+            border-collapse: collapse;
+            
+        }
+
+table, th, td
+        {
+            border-style: solid;
+            border-color: #191919;
+            border-width: 1px;
+        }
