@@ -180,11 +180,27 @@ body
             text-align: right;
             font-style: italic;
         }
+        
+/* Floating images */
 .right
         {
             float: right;
+            border-style: solid;
+            border-color: #FFF;
+            border-width: 10px;
+        }
+.left
+        {
+            float: left;
+            border-style: solid;
+            border-color: #FFF;
+            border-width: 10px;
         }
         
+h2
+        {
+            clear: both;
+        }
 
 /* Tables */
 
