@@ -108,7 +108,7 @@
 #nav a:hover 
         {
             display: block;
-            background-color:#FFF123;
+            background-color:#F71D00;
             border-width: 1px;
             border-color: #FFFFFF;
             border-style: solid;
@@ -271,4 +271,26 @@ tfoot
 #cform .radio
         {
             width: auto;
+        }
+        
+#cform .submit
+        {
+            color: #191919;
+            background-color: #FFF056;
+            border-style: solid;
+            border-width: 4px;
+            border-color: #191919;
+            width: 100px;
+            height: 40px;
+        }
+        
+#cform .submit:hover
+        {
+            color: #191919;
+            background-color: #F71D00;
+            border-style: solid;
+            border-width: 4px;
+            border-color: #191919;
+            width: 100px;
+            height: 40px;
         }
