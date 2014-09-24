@@ -23,21 +23,21 @@
 #header
         {
             font-size: 30px;
-            margin-top: -25px;
             background-color: #191919 ;
             color: #FFFFFF;
             padding: 0px;
-            padding-left: 5px;
+            padding-left: 110px;
             background-image: url(pics/logo2.png);
             background-repeat: no-repeat;
             background-position: left;
             background-size: 100px ;
-            background-origin: content-box;
-            text-indent: 110px;
+            background-origin: border-box;
+            text-align: center;
             overflow: hidden;
             
         }
-        
+
+
 
 
 #nav
