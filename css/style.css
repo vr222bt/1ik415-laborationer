@@ -238,3 +238,37 @@ tfoot
             background-color: #191919;
             color: #FFFFFF;
         }
+        
+/* Forms */
+
+#cform
+        {
+            width: 700px;
+            border-collapse: collapse;
+        }
+        
+#cform label
+        {
+            width: 200px;
+            text-align: right;
+            display: block;
+            float: left;
+            padding-right: 10px;
+            clear: left;
+        }
+        
+#cform input, #cform textarea, #cform select
+        {
+            width: 350px;
+            margin-bottom: 20px;
+        }
+        
+#cform textarea
+        {
+            height: 150px;
+        }
+        
+#cform .radio
+        {
+            width: auto;
+        }

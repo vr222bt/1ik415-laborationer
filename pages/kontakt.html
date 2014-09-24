@@ -29,55 +29,42 @@
         </div>  
         <div id="content">
             <h1>Formulär</h1>
-            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method=post>
+            <form id="cform" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method=post>
                 <fieldset>
                     <legend>Meddelande</legend>
-                   <ul>
-                   <li>
                        <label for=ärende>Ärende:</label><select id=ärende name=Ärende>
                            <option  value=Fråga>Fråga</option>
                            <option  value=Förslag>Förslag</option>
                            <option  value=Annat>Annat</option>
                        </select>
-                   </li>
-                   
-                    <li>
+                   <br/>
                         <label for=name>Namn:</label><input type=text id=name name=namn autofocus >
-                    </li>
-                    <li>
+                    <br/>
+                    
                         <label for=nummer>Telefonnummer:</label><input type=text id=nummer name=nummer >
-                    </li>
-                    <li>
+                    <br/>
+                    
                         <label for=mailadress>Email:</label><input type=text id=mailadress name=mailadress >
-                    </li>
+                    <br/>
                     
-                    <li>
+                    
                         <label for=rubrik>Rubrik:</label><input type=text id=rubrik name=rubrik >
-                    </li>
+                    <br/>
                     
-                    <li>
-                        <textarea placeholder="Skriv ditt meddelande här" name=meddelande></textarea>
-                    </li>
-                   </ul>  
+                    
+                        <label for="meddelande">Meddelande:</label>
+                        <textarea id"meddelande" placeholder="Skriv ditt meddelande här" name=meddelande></textarea>
+                    <br/>
                 </fieldset>
                 <fieldset>
-                    <legend>Fråga</legend>
-                        <ul>
-                            
-                            <li>
-                                Jag vill ha svar via:
-                            </li>
-                            <li>
-                              <input id=telefon type=radio name=SvaraVia value=telefon > <label for=telefon>Telefon</label> 
-                            </li>
-                            <li>
-                                <input id=email type=radio name=SvaraVia value=email > <label for=email>Email</label>
-                            </li>
-                            <li>
-                                <input id=båda type=radio name=SvaraVia value=båda > <label for=båda>Båda</label>
-                            </li>
-            
-                        </ul>
+                    <legend>Svara mig via:</legend>
+                            <input class="radio" id=telefon type=radio name=SvaraVia value=telefon > <label for=telefon>Telefon</label> 
+                            <br/>
+                            <input class="radio" id=email type=radio name=SvaraVia value=email > <label for=email>Email</label>
+                            <br/>
+                            <input class="radio" id=båda type=radio name=SvaraVia value=båda > <label for=båda>Båda</label>
+                            <br/>
+        
                 </fieldset>
                 <input type="submit" value="Skicka" /> 
             </form>
