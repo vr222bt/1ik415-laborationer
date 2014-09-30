@@ -77,7 +77,7 @@
             
         }
         
-#nav a:link, a:visited
+#nav a:link
         {
             display: block;
             background-color:#FFF056;
@@ -92,6 +92,20 @@
             
         }
         
+#nav a:visited
+        {
+            display: block;
+            background-color:#FFF056;
+            border-width: 1px;
+            border-color: #FFFFFF;
+            border-style: solid;
+            font-weight: bold;
+            text-align: center;
+            color: #191919;
+            text-decoration: none;
+            text-transform: Uppercase;
+            
+        }
 #nav a:focus
         {
             display: block;
@@ -134,13 +148,32 @@
             text-transform: Uppercase;
         }
 
-.active
+ 
+
+#nav li .active 
         {
-            
-            font-style: italic;
-            text-shadow: 2px 2px 3px #482E74;
+           /* text-shadow: 2px 2px 3px #482E74; */
+            background-color: #FFFFFF;
             
         }
+        
+#nav li .active:hover 
+        {
+            display: block;
+            background-color:#F71D00;
+            border-width: 1px;
+            border-color: #FFFFFF;
+            border-style: solid;
+            font-weight: bold;
+            text-align: center;
+            color: #191919;
+            text-decoration: none;
+            text-transform: Uppercase;
+        }
+
+        
+
+                
 /*Sprite menu */   
 
 .icon
