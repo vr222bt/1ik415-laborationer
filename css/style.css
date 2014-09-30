@@ -269,7 +269,19 @@ body
             border-bottom-color: #191919;
         }
         
+.blogheader:hover
+        {    
+            background-image: url(pics/pencil.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 40px ;
+            text-indent: 60px;
+            border-bottom-style: solid;
+            border-bottom-color: #191919;
+            transform: skew(15deg);
+        }
         
+                    
 .signature
         {
             text-align: right;
@@ -385,4 +397,12 @@ tfoot
             border-color: #191919;
             width: 100px;
             height: 40px;
+        }
+        
+/* Profilbil transformation */
+
+#profilbild:hover
+        {
+            transform: rotate(360deg);
+            transition: transform 2s ease-out 0.1s;
         }
