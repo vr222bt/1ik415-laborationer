@@ -141,7 +141,63 @@
             text-shadow: 2px 2px 3px #482E74;
             
         }
+/*Sprite menu */   
 
+.icon
+        {
+            background: url(pics/sprite.png)
+
+        }
+        
+#home
+        {
+            background-position: 0 -48px;
+            background-repeat: no-repeat;
+        }
+        
+#home:hover
+        {
+            background-position: 0 0;
+            background-repeat: no-repeat;
+        }
+        
+#laboration
+        {
+            background-position: 0 -144px;
+            background-repeat: no-repeat;
+        }
+        
+#laboration:hover
+        {
+            background-position: 0 -96px;
+            background-repeat: no-repeat;
+        }
+        
+#contact
+        {
+            background-position: 0 -240px;
+            background-repeat: no-repeat;
+        }
+        
+#contact:hover
+        {
+            background-position: 0 -192px;
+            background-repeat: no-repeat;
+        }
+        
+#profile
+        {
+            background-position: 0 -336px;
+            background-repeat: no-repeat;
+        }
+        
+#profile:hover
+        {
+            background-position: 0 -288px;
+            background-repeat: no-repeat;
+        }
+        
+/* font */
 body
         {
             font-family: "Arial" , sans-serif;
