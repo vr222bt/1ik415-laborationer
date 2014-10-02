@@ -5,5 +5,65 @@ img
         
 #content h2
         {
-            color: red;
+            color: blue;
         }
+
+/*Layout and colors etc */
+
+#container
+        {
+            
+            
+            max-width: 480px;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #DFE2DB;
+            
+            
+        }
+
+#header
+        {
+
+            padding: 0px;
+            padding-left: 110px;
+
+        }
+
+
+
+
+#nav
+        {
+            width: 480px;
+            background-color: #FFF056;
+            
+        }
+        
+#content
+        {
+            width: 470px;
+            padding-left: 10px;
+        
+        }
+#footer
+        {
+            clear: both;
+            height: 50px;
+            padding-right: 10px;
+        }
+
+                
+
+        
+
+
+
+/* Tables */
+
+table
+        {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
