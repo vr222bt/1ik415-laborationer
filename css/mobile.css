@@ -68,3 +68,8 @@ table
             overflow: auto;
         }
 
+#cform
+        {
+            width: 480px;
+            border-collapse: collapse;
+        }
