@@ -1,6 +1,9 @@
-img
+img, video
         {
-            max-width: 480px;
+            width: 470px;
+            height: 470px;
+            margin-left: 5px;
+            margin-right: 5px;
         }
         
 #content h2
@@ -14,7 +17,7 @@ img
         {
             
             
-            max-width: 480px;
+            max-width: 480px; 
             margin-right: auto;
             margin-left: auto;
             background-color: #DFE2DB;
@@ -27,7 +30,7 @@ img
             width: 370px;
             padding: 0px;
             padding-left: 110px;
-
+        
         }
 
 
@@ -36,7 +39,7 @@ img
 #nav
         {
             width: 480px;
-            background-color: #FFF056;
+            background-color: #FFF056; 
             
         }
         
@@ -53,6 +56,12 @@ img
             padding-right: 10px;
         }
 
+body
+        {
+            width: 480px;
+            margin-right: auto;
+            margin-left: auto;
+        }
                 
 
         
@@ -72,4 +81,19 @@ table
         {
             width: 480px;
             border-collapse: collapse;
+        }
+        
+/* img floating etc */
+
+.right
+        {
+            float: none;
+            border-style: none;
+
+        }
+.left
+        {
+            float: none;
+            border-style: none;
+
         }
