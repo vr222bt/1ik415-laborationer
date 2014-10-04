@@ -1,10 +1,21 @@
+html, body
+        {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+
+        }
+        
+
+
 img, video
         {
             display: block;
             margin-left: 5px;
             margin-right: 5px;
         }
-        
+/* This is only used for testing */    
 #content h2
         {
             color: blue;
@@ -14,31 +25,23 @@ img, video
 
 #container
         {
-            
-            
-            width: 720px; 
-            margin-right: auto;
-            margin-left: auto;
-            background-color: #DFE2DB;
-            
-            
+            width: auto;
         }
 
 #header
         {
-            width: 610px;
+            font-size: 20px;
+            width: auto;
             padding: 0px;
-            padding-left: 110px;
-        
+            background-image: none;
         }
-
-
 
 
 #nav
         {
+            display: block;
             float: none;
-            width: 720px;
+            width: auto;
             background-color: #FFF056; 
             
         }
@@ -53,30 +56,22 @@ img, video
 #content
         {
             float: left;
-            width: 700px;
+            width: auto;
             padding-left: 10px;
-            padding-right: 10px;
+            padding-right: 30px;
         
         }
 #footer
         {
-            
+            font-size: 10px;
             clear: both;
-            width: 710px;
-            height: 50px;
+            width: auto;
+            height: 15px;
+            padding-top:5px;
+            padding-bottom:5px;
             padding-right: 10px;
         }
-
-body
-        {
-            width: 720px;
-            margin-right: auto;
-            margin-left: auto;
-        }
-                
-
         
-
 
 
 /* Tables */
@@ -89,7 +84,7 @@ table
 
 #cform
         {
-            width: 720px;
+            width: auto;
             border-collapse: collapse;
         }
         
