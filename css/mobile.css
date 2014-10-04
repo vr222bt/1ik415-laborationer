@@ -27,6 +27,7 @@ img, video
 #container
         {
             width: auto;
+            max-width: 480px;
         }
 
 #header
@@ -80,7 +81,7 @@ img, video
 table
         {
             width: auto;
-            max-width: 480px;
+            max-width: 360px;
             border-collapse: collapse;
             overflow: auto;
         }
