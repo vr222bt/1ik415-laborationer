@@ -406,3 +406,19 @@ tfoot
             transform: rotate(360deg);
             transition: transform 2s ease-out 0.1s;
         }
+        
+/*Styling the hcard*/
+
+.vcard
+        {
+            margin-top: 10px;
+            padding-left: 10px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 15px;
+            border-width: 1px;
+        }
+.hcardsource 
+        {
+            font-size: smaller;
+        }

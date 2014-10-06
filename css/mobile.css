@@ -27,7 +27,6 @@ img, video
 #container
         {
             width: auto;
-            max-width: 480px;
         }
 
 #header
