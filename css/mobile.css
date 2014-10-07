@@ -1,3 +1,4 @@
+
 html, body
         {
             width: 100%;
@@ -16,7 +17,7 @@ img, video
         }
    
 
-/*Layout and colors etc */
+/*Layout and fonts etc */
 
 #container
         {
@@ -58,12 +59,16 @@ img, video
         
         }
         
-#content p, h1, h2,form, table, img, svg, video
+#content p, h1, h2,form, table, img, video
         {
             
             width: 100%;
 
         
+        }
+#content ol
+        {
+            word-break: break-word;
         }
 #footer
         {
@@ -75,18 +80,18 @@ img, video
         
 
 
-/* Tables */
+/* Table */
 
 table
         {
             width: 100%;
             max-width: 360px;
             border-collapse: collapse;
-            overflow: auto;
+            overflow: scroll;
         }
 
         
-/* img floating etc */
+/* img floating n blogheader */
 
 .right
         {
@@ -107,7 +112,8 @@ table
             text-indent: 0;
         }
         
-        
+
+/*Kontaktformuläret*/
 #cform
         {
             width: 100%;
