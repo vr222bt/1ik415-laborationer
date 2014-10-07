@@ -59,7 +59,7 @@ img, video
         
         }
         
-#content p, h1, h2,form, table, img, video
+#content p, h1, h2,form, table, img, video,svg
         {
             
             width: 100%;
