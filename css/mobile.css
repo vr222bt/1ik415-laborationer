@@ -9,31 +9,26 @@ html, body
         
 
 
-img, video
+img, video, svg
         {
             max-width:480px;
             display: block;
-            margin-left: 5px;
-            margin-right: 5px;
         }
-/* This is only used for testing */    
-#content h2
-        {
-            color: blue;
-        }
+   
 
 /*Layout and colors etc */
 
 #container
         {
-            width: auto;
+            width: 100%
         }
 
 #header
         {
-            font-size: 20px;
-            width: auto;
+           
+            width: 100%;
             padding: 0px;
+            font-size: 20px;
             background-image: none;
         }
 
@@ -42,7 +37,7 @@ img, video
         {
             display: block;
             float: none;
-            width: auto;
+            width: 100%;
             background-color: #FFF056; 
             
         }
@@ -58,8 +53,16 @@ img, video
         {
             float: left;
             width: auto;
-            padding-left: 10px;
-            padding-right: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        
+        }
+        
+#content p, h1, h2,form, table, img, svg, video
+        {
+            
+            width: 100%;
+
         
         }
 #footer
@@ -68,10 +71,6 @@ img, video
             clear: both;
             width: auto;
             height: 20px;
-          /*  padding-top:5px;
-            padding-bottom:10px;
-            padding-right: 10px;
-            */
         }
         
 
@@ -80,7 +79,7 @@ img, video
 
 table
         {
-            width: auto;
+            width: 100%;
             max-width: 360px;
             border-collapse: collapse;
             overflow: auto;
@@ -88,8 +87,8 @@ table
 
 #cform
         {
-            width: auto;
-            max-width: 480px;
+            width: 100%;
+            max-width: 360px;
             border-collapse: collapse;
         }
         
@@ -106,4 +105,10 @@ table
             float: none;
      
 
+        }
+        
+.blogheader
+        {
+            background-image: none;
+            text-indent: 0;
         }
