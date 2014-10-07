@@ -9,7 +9,7 @@ html, body
         
 
 
-img, video, svg
+img, video
         {
             max-width:480px;
             display: block;
@@ -85,12 +85,6 @@ table
             overflow: auto;
         }
 
-#cform
-        {
-            width: 100%;
-            max-width: 360px;
-            border-collapse: collapse;
-        }
         
 /* img floating etc */
 
@@ -112,3 +106,30 @@ table
             background-image: none;
             text-indent: 0;
         }
+        
+        
+#cform
+        {
+            width: 100%;
+            max-width: 360px;
+            border-collapse: collapse;
+        }
+        
+#cform label
+        {
+            width: 30%;
+
+
+        }
+        
+#cform input, #cform textarea, #cform select
+        {
+            width: 70%;
+            margin-bottom: 20px;
+        }
+        
+#cform textarea
+        {
+            height: 150px;
+        }
+        
