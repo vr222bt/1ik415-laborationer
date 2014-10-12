@@ -427,3 +427,34 @@ tfoot
         {
             font-size: smaller;
         }
+        
+/* Kommentarer */
+
+aside
+        {
+            background-color: #DFE2DB;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        
+.comment
+        {
+            
+            border-top-style: solid;
+            border-color: #FFFFFF;
+            border-width: 1px;
+            
+        }
+        
+.commentAuthor
+        {
+            font-weight: bold;
+        }
+        
+aside h3
+        {
+            text-align: center;
+            text-transform: Uppercase;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
