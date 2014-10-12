@@ -1,0 +1,135 @@
+
+
+#container
+        {
+            max-width: 1200px;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        
+#images
+        {
+                margin-top: 100px;
+        }
+
+body
+        {
+                font-family: "Great Vibes", cursive;
+                background-color: #267267;
+        }
+        
+img
+        {
+                display: block;
+                position: relative;
+        }
+a:after
+        {
+                content:attr(title);
+
+        }
+        
+
+a
+        {
+                position: relative;
+                color: #000;
+                background-color: #FFF;
+                text-align: center;
+                display: block;
+                float: left;
+                padding: 15px;
+                font-size: 25px;
+                box-shadow: 2px 2px 4px 3px #000000;
+                text-decoration: none;
+        }
+        
+a:nth-child(1)
+        {
+                transform: rotate(5deg);
+                z-index: 10;
+        }
+        
+a:nth-child(2)
+        {
+                margin-left: -50px;
+                transform: rotate(-25deg);
+                z-index: 5;
+        }
+a:nth-child(3)
+        {
+                margin-left: -50px;
+                transform: rotate(-10deg);
+                z-index: 10;
+        }
+
+a:nth-child(4)
+        {
+                margin-top: -50px;
+                transform: rotate(160deg);
+                z-index: 5;
+        }
+
+a:nth-child(5)
+        {
+                margin-top: -70px;
+                transform: rotate(10deg);
+                z-index: 10;
+        }
+        
+a:nth-child(6)
+        {
+                margin-top: -100px;
+                margin-left: -100px;
+                transform: rotate(-15deg);
+                z-index: 20;
+        }
+        
+a:nth-child(7)
+        {
+                margin-top: -100px;
+                transform: rotate(5deg);
+                z-index: 5;
+        }
+        
+a:nth-child(8)
+        {
+                margin-top: -70px;
+                transform: rotate(90deg);
+                z-index: 15;
+        }
+        
+a:nth-child(9)
+        {
+                margin-top: -50px;
+                transform: rotate(-40deg);
+                z-index: 30;
+        }
+        
+a:nth-child(10)
+        {
+                margin-top: -300px;
+                transform: rotate(5deg);
+                z-index: 10;
+        }
+        
+a:nth-child(11)
+        {
+                margin-top: -400px;
+                transform: rotate(-30deg);
+                z-index: 25;
+        }
+        
+a:nth-child(3n)
+        {
+                font-style: italic;
+        }
+
+a:hover, a:focus
+        {
+                transform: rotate(0deg) scale(1.5);
+                z-index: 100;
+                box-shadow: 8px 8px 12px 8px #000000;
+                transition: all 1s ease-out 0.1s;
+        }
