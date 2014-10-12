@@ -1,11 +1,11 @@
 
-#nav 
+nav 
         {
             display: none;
         }
         
-#content a:link:after, 
-#content a:visited:after 
+main a:link:after, 
+main a:visited:after 
         { 
         	content: " (" attr(href) ") "; 
         }

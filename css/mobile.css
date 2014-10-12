@@ -24,7 +24,7 @@ img, video
             width: 100%
         }
 
-#header
+header
         {
             word-wrap: break-word;
             width: 100%;
@@ -34,7 +34,7 @@ img, video
         }
 
 
-#nav
+nav
         {
             display: block;
             float: none;
@@ -43,14 +43,14 @@ img, video
             
         }
         
-#nav a
+nav a
         {
             height: 20px;
             padding-top:10px;
             padding-bottom:10px;
         }
         
-#content
+main
         {
             float: left;
             width: auto;
@@ -59,18 +59,18 @@ img, video
         
         }
         
-#content p, h1, h2,form, table, img, video,svg
+main p, h1, h2,form, table, img, video,svg
         {
             
             width: 100%;
 
         
         }
-#content ol
+main ol
         {
             word-break: break-word;
         }
-#footer
+footer
         {
             font-size: 10px;
             clear: both;
