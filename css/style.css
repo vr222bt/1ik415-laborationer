@@ -21,7 +21,7 @@
             
         }
 
-#header
+header
         {
             width: 890px;
             font-size: 30px;
@@ -42,7 +42,7 @@
 
 
 
-#nav
+nav
         {
             float:left;
             width: 200px;
@@ -51,7 +51,7 @@
             
         }
         
-#content
+main
         {
             float: left;
             line-height: 1.5;
@@ -59,7 +59,7 @@
             padding-left: 10px;
             background-color: #FFFFFF;
         }
-#footer
+footer
         {
             clear: both;
             height: 50px;
@@ -70,7 +70,7 @@
         }
         
 /* Menu */        
-#nav ul
+nav ul
         {
             list-style-type: none;
             margin: 0;
@@ -78,7 +78,7 @@
             
         }
         
-#nav a:link
+nav a:link
         {
             display: block;
             background-color:#FFF056;
@@ -93,7 +93,7 @@
             
         }
         
-#nav a:visited
+nav a:visited
         {
             display: block;
             background-color:#FFF056;
@@ -107,7 +107,7 @@
             text-transform: Uppercase;
             
         }
-#nav a:focus
+nav a:focus
         {
             display: block;
             background-color:#FFF056;
@@ -121,7 +121,7 @@
             text-transform: Uppercase;
         }
         
-#nav a:hover 
+nav a:hover 
         {
             display: block;
             background-color:#F71D00;
@@ -135,7 +135,7 @@
             text-transform: Uppercase;
         }
 
-#nav a:active 
+nav a:active 
         {
             display: block;
             background-color:#FF9400;
@@ -151,14 +151,14 @@
 
  
 
-#nav li .active 
+nav li .active 
         {
            /* text-shadow: 2px 2px 3px #482E74; */
             background-color: #FFFFFF;
             
         }
         
-#nav li .active:hover 
+nav li .active:hover 
         {
             display: block;
             background-color:#F71D00;
@@ -238,7 +238,7 @@ body
         
         
 /* Links */        
-#content a
+main a
         {
             color: black;
             text-decoration: none;
@@ -248,7 +248,7 @@ body
             border-bottom-color: #9AE700;
         }
         
-#content a:hover
+main a:hover
         {
             text-decoration: none;
             font-style: italic;
