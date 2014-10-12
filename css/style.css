@@ -7,6 +7,11 @@
     
 */
 
+header, footer, main, nav, article, aside, section
+{
+    display: block;
+}
+
 /*Layout and colors etc */
 
 #container
