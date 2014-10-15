@@ -86,9 +86,8 @@ footer
 table
         {
             width: 100%;
-            max-width: 360px;
             border-collapse: collapse;
-            overflow: scroll;
+            overflow: auto;
         }
 
         

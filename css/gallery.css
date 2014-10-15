@@ -50,7 +50,7 @@ img
         {
                 position: relative;
                 color: #000;
-                background-color: #FFF;
+                background-color: #FFF;        
                 text-align: center;
                 display: block;
                 float: left;
@@ -58,6 +58,10 @@ img
                 font-size: 25px;
                 box-shadow: 2px 2px 4px 3px #000000;
                 text-decoration: none;
+                transition: all 1s ease;
+                transform: rotate(0deg) scale(1.0);
+                z-index: 1;
+                
         }
         
 #images a:nth-child(1)
@@ -141,18 +145,11 @@ img
                 font-style: italic;
         }
 
-#images a:hover
+#images a:hover, #images a:focus
         {
                 transform: rotate(0deg) scale(1.5);
                 z-index: 100;
                 box-shadow: 8px 8px 12px 8px #000000;
-                transition: all 1s ease-out 0.1s;
+                transition: all 1s ease;
         }
         
-#images a:focus
-        {
-                transform: rotate(0deg) scale(1.5);
-                z-index: 100;
-                box-shadow: 8px 8px 12px 8px #000000;
-                transition: all 1s ease-out 0.1s;
-        }
