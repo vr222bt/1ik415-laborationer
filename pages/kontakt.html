@@ -62,31 +62,31 @@
                            <option  value=Annat>Annat</option>
                        </select>
                    <br/>
-                        <label for=name>Namn:</label><input type=text id=name name=namn autofocus >
+                        <label for=name>Namn:</label><input type=text id=name name=namn autofocus required >
                     <br/>
                     
-                        <label for=nummer>Telefonnummer:</label><input type="tel" id=nummer name=nummer >
+                        <label for=nummer>Telefonnummer:</label><input type="tel" id=nummer name=nummer required >
                     <br/>
                     
-                        <label for=mailadress>Email:</label><input type="email" id=mailadress name=mailadress >
+                        <label for=mailadress>Email:</label><input type="email" id=mailadress name=mailadress required >
                     <br/>
                     
                     
-                        <label for=rubrik>Rubrik:</label><input type=text id=rubrik name=rubrik >
+                        <label for=rubrik>Rubrik:</label><input type=text id=rubrik name=rubrik required >
                     <br/>
                     
                     
                         <label for="meddelande">Meddelande:</label>
-                        <textarea id="meddelande" placeholder="Skriv ditt meddelande här" name=meddelande></textarea>
+                        <textarea id="meddelande" placeholder="Skriv ditt meddelande här" name=meddelande required></textarea>
                     <br/>
                 </fieldset>
                 <fieldset>
                     <legend>Svara mig via:</legend>
-                            <input class="radio" id=telefon type=radio name=SvaraVia value=telefon > <label for=telefon>Telefon</label> 
+                            <input class="radio" id=telefon type=radio name=SvaraVia value=telefon required > <label for=telefon>Telefon</label> 
                             <br/>
-                            <input class="radio" id=email type=radio name=SvaraVia value=email > <label for=email>Email</label>
+                            <input class="radio" id=email type=radio name=SvaraVia value=email required > <label for=email>Email</label>
                             <br/>
-                            <input class="radio" id=båda type=radio name=SvaraVia value=båda > <label for=båda>Båda</label>
+                            <input class="radio" id=båda type=radio name=SvaraVia value=båda required > <label for=båda>Båda</label>
                             <br/>
                 </fieldset>
                 <input class="submit" type="submit" value="Skicka" /> 
